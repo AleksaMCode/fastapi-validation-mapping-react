@@ -21,7 +21,7 @@
   - `company_id` (`UUID`)
   - `type` (`enum`: `admin` or `user`)
   - `startdate` (`datetime`)
-- Custom validation error normalization so FastAPI returns:
+- Custom validation error normalization, where FastAPI can return for example this response:
 
 ```json
 {
